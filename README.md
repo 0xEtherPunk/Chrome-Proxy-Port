@@ -1,6 +1,10 @@
-# Local Proxy Switcher
+# Chrome-Proxy-Port
 
 Chromium Manifest V3 extension for routing browser traffic through local or remote proxy ports (such as SOCKS5 `127.0.0.1:60009`, HTTP, HTTPS, or SOCKS4). Supports global proxying, selective domain-based routing, and exclusion lists. Designed for Brave, Chrome, and Chromium-based browsers.
+
+<p align="center">
+  <img src="demo.png" alt="Chrome-Proxy-Port" width="360">
+</p>
 
 ## Architecture
 
@@ -22,7 +26,7 @@ The extension interfaces directly with Chromium's `chrome.proxy` API:
 1. Open Brave and navigate to `brave://extensions` (or `chrome://extensions` in Google Chrome).
 2. Enable **Developer mode** toggle in the top-right corner.
 3. Click **Load unpacked**.
-4. Select the project directory (`Chrome Proxy Port`).
+4. Select the project directory (`Chrome-Proxy-Port`).
 5. Pin the extension icon to the toolbar for quick access.
 
 ## Routing Modes
@@ -87,5 +91,5 @@ If proxy is active but target port is closed:
 
 ### Inspecting Extension Logs
 1. Navigate to `brave://extensions`.
-2. Find **Local Proxy Switcher**.
+2. Find **Chrome-Proxy-Port**.
 3. Click `Inspect views: service worker` to inspect background execution, PAC generation, and storage events.

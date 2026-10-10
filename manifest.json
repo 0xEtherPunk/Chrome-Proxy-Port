@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Local Proxy Switcher",
+  "name": "Chrome-Proxy-Port",
   "version": "1.0.0",
   "description": "Route browser traffic or specific domains through local and custom proxy ports.",
   "permissions": [
