@@ -91,7 +91,7 @@ async function updateBadge(config) {
 
   if (config.mode === 'selective') {
     badgeText = 'RULE';
-    badgeColor = '#3b82f6';
+    badgeColor = '#F92672';
     const ruleCount = Array.isArray(config.rules) ? config.rules.length : 0;
     title = `Proxy: Selective (${ruleCount} rules -> ${config.scheme}://${config.host}:${config.port})`;
   } else if (config.mode === 'exclude') {
